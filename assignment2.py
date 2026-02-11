@@ -21,6 +21,8 @@ def integer(x , y):
     print("difference between the numbers is: ", difference)
     print("product of the numbers is: ", product)
     print("quotient of the numbers is: ", quotient)
+    return aum, quotient, product, difference
+print("===============")
     
 
 # Qn 3. Control statement
@@ -38,11 +40,13 @@ number()
 print("=================")
 
 # Qn 4. Loop with arithmetics.
-
-n = int(input("Enter the value n"))
-for number in range(1,n):
-    if number = n:
-        sum = 
+def sum_of_numbers(n):
+    sum = 0
+    for i in range(1, n+1)
+    sum += 1
+    print("the sum of number when n is :",n," is: "sum)
+n = int(input("Enter n"))
+sum_of_numbers
         
         
 # while loop
